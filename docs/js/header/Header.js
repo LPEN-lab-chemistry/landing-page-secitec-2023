@@ -17,7 +17,6 @@ class Header extends HTMLElement {
     render() {
         this.attachShadow({mode: "open"});
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="styles/header.css">
         <header id="header">
             <div id="header-image-area">
                 
