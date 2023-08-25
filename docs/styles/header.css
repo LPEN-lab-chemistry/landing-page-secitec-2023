@@ -52,7 +52,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  height: 4em;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 #header-nav a {
