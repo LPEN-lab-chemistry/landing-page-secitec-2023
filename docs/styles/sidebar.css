@@ -1,0 +1,32 @@
+#sidebar-container {
+    top: 0px;
+    height: 100%;
+    width: 12em;
+    background-color: blue;
+}
+
+#sidebar-container ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#sidebar-container li {
+    margin-bottom: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 4em;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    background: rgb(0, 16, 36);
+    background: -moz-linear-gradient(3deg, rgba(0, 16, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    background: -webkit-linear-gradient(3deg, rgba(0, 16, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(3deg, rgba(0, 16, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001024", endColorstr="#00d4ff", GradientType=1);
+}
+
+#sidebar-container a {
+    text-decoration: none;
+    color: white;
+}
