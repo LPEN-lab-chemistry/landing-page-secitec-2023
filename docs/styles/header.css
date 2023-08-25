@@ -67,3 +67,9 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+@media (max-width: 768px) {
+  #header-nav a {
+    font-size: 4rw;
+  }
+}
