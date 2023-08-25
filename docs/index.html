@@ -2,24 +2,45 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SECITEC 2023</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SECITEC 2023</title>
+   <script src="js/header/Header.js"></script>
+   <script src="js/sidebar/Sidebar.js"></script>
 
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/header.css">
-
-    <script src="js/header/Header.js"></script>
-    <script src="js/sidebar/Sidebar.js"></script>
+   <link rel="stylesheet" href="styles/index.css">
+   <link rel="stylesheet" href="styles/header.css">
+   <link rel="stylesheet" href="styles/sidebar.css">
 
 </head>
 
 <body>
-    <header-component></header-component>
-    <div id="content">
-        <sidebar-component></sidebar-component>
-    </div>
+   <header id="header">
+      <div id="header-image-area">
+
+      </div>
+      <nav id="header-nav">
+         <a href="*">Inicio</a>
+         <a href="*">Programação</a>
+         <a href="*">Semana da cultura</a>
+         <a href="*">Incrições</a>
+         <a href="*">Eventos</a>
+         <a href="*">Contato</a>
+      </nav>
+   </header>
+   <div id="content">
+      <link rel="stylesheet" href="/styles/sidebar.css">
+      <aside id="sidebar-container">
+         <ul>
+            <li><a href="#">Semana do Ensino</a></li>
+            <li><a href="#">Semana do Técnico</a></li>
+            <li><a href="#">Semana da cultura</a></li>
+            <li><a href="#">Seminário de extensão</a></li>
+            <li><a href="#">Simposio de Pesquisa Inovação e Pós-graduação</a></li>
+            <li><a href="#">Roda de Conversa Treinamento Profissional</a></li>
+         </ul>
+      </aside>
+   </div>
 </body>
 
 </html>
