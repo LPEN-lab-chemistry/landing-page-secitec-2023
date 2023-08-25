@@ -16,7 +16,7 @@ class Sidebar extends HTMLElement {
     render() {
         this.attachShadow({mode: "open"});
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="/styles/sidebar.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
             <aside id="sidebar-container">
                 <ul>
                     ${this.renderSidebarOptions()}
