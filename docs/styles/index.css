@@ -19,10 +19,22 @@ body {
   );
 }
 
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(20%);
+    color: rgba(255, 255, 255, 0.3);
+  }
+  to {
+    transform: translateX(0);
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
 #content {
   display: flex;
   flex-direction: column;
   min-height: 70vh;
+  animation: slideInFromRight 0.8s forwards;
 }
 
 #text-area {

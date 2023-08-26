@@ -1,10 +1,31 @@
+@keyframes navSlider {
+  from {
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.3);
+  }
+  to {
+    transform: translateX(0);
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
 #navbar-container {
+  z-index: -5;
   margin-top: 1em;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   top: 0px;
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.main {
+  z-index: -5;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  top: 0px;
+  animation: navSlider 0.5s forwards;
 }
 
 #navbar-container div {
