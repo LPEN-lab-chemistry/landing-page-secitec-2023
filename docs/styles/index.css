@@ -21,7 +21,7 @@ body {
 
 @keyframes slideInFromRight {
   from {
-    transform: translateX(20%);
+    transform: translateY(20%);
     color: rgba(255, 255, 255, 0.3);
   }
   to {
