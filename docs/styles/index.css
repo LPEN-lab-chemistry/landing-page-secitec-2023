@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 70vh;
-  animation: slideInFromRight 0.8s forwards;
+  animation: slideInFromRight 0.5s forwards;
 }
 
 #text-area {

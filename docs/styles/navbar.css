@@ -74,6 +74,10 @@
   overflow: hidden;
 }
 
+#navbar-container span:hover {
+  color: rgb(0, 37, 116);
+}
+
 @media (max-width: 768px) {
   #navbar-container a {
     overflow: hidden;
