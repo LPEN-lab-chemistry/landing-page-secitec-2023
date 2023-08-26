@@ -1,6 +1,6 @@
 @keyframes navSlider {
   from {
-    transform: translateY(-50%);
+    transform: translateX(-50%);
     color: rgba(255, 255, 255, 0.3);
   }
   to {
@@ -25,7 +25,7 @@
   justify-content: space-around;
   flex-direction: row;
   top: 0px;
-  animation: navSlider 0.5s forwards;
+  animation: navSlider 0.8s forwards;
 }
 
 #navbar-container div {
