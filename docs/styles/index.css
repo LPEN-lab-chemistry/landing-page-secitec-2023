@@ -41,6 +41,14 @@ body {
   margin-bottom: 2em;
 }
 
+#text-area p {
+  text-align: justify;
+}
+
+#text-area p span.first-letter {
+  margin-right: 2em; /* Adicione o valor desejado para o espaçamento antes da primeira letra */
+}
+
 #footer-container {
   display: flex;
   height: auto;
