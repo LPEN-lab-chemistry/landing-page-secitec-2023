@@ -3,7 +3,7 @@ function scrollToContent() {
 
   if (contentElement && window.innerWidth > 768) {
     contentElement.scrollIntoView({
-      behavior: "smooth",
+      //behavior: "smooth",
       block: "start", // Alinha o topo do elemento com o topo da janela
       inline: "nearest",
     });
