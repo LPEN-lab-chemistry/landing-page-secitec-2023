@@ -17,12 +17,10 @@
 }
 
 .restart {
-  animation: mainHeaderTransition 0.8s forwards;
   color: rgba(0, 0, 0, 0);
 }
 
 .image-fade {
-  animation: imageFade 0.8s forwards;
 }
 
 #header {
