@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="../styles/week-detail.css">
 </head>
 
-<body>
+<body onload="scrollToContent()">
     <header id="header">
         <div id="header-image-area">
-            <img src="../assets/logo.png" alt="Descrição da Imagem">
+            <img src="../assets/new-logo.png" alt="Tema SECITEC 2023" class="image-fade">
         </div>
         <nav id="header-nav">
             <a href="../">Início</a>
@@ -47,8 +47,13 @@
             </p>
         </div>
         <div id="week-detail">
-            <a href="../downloads/PROGRAMAÇÃO DA RODA DE CONVERSA TP - 2023.pdf" download>Programação da Roda de
-                Conversa</a>
+            <div id="download-area">
+                <h4>Clique abaixo para baixar a programação da Roda de Conversa</h4>
+                <a href="../downloads/PROGRAMAÇÃO DA RODA DE CONVERSA TP - 2023.pdf" download>
+                    <span>Download</span>
+                    <img src="../assets/download-icon.png" alt="Download-img">
+                </a>
+            </div>
             <div id="comissao-container">
                 <h4>Comissão Organizadora da Roda de Conversa do Treinamento Profissional 2023</h4>
                 <p>Jacqueline Rodrigues Gonçalves da Costa</p>
