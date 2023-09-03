@@ -4,13 +4,16 @@
 }
 
 #comissao-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 4em;
   text-align: center;
   font-size: medium;
 }
 
 #download-area {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   margin-top: 5em;
   text-align: center;
   display: flex;
@@ -20,8 +23,8 @@
 }
 
 #download-area a {
-  margin-top: 1em;
   margin-bottom: 2em;
+  margin-top: 1em;
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff; /* Cor de fundo do botão */

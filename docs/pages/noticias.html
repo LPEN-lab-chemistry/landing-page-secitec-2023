@@ -15,23 +15,48 @@
     <link rel="stylesheet" href="../styles/week-detail.css">
 
     <style>
-        #image-container-local {
+        #text-area {
             display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #text-area h2 {
+            margin-bottom: 1em;
+        }
+
+        #text-area p {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #form-area {
+            margin-bottom: 2em;
+            margin-top: 2em;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
         }
 
-        #image-container-local img {
-            width: 60%;
-            height: 60%;
-            object-fit: cover;
-        }
-
-        #image-container-local span {
-            font-size: 0.8em;
+        #form-area a {
+            margin-top: 1em;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
             text-align: center;
-            width: 70%;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        #form-area span {}
+
+        #form-area img {
+            margin-left: 0.1em;
+            height: 1em;
         }
 
         #contato-container {
@@ -43,34 +68,29 @@
             flex-direction: column;
         }
 
-        #contato-container a {
+        #link-insta {
+            text-decoration: underline;
             color: black;
-            text-decoration: none;
-            margin-top: 1em;
-            display: flex;
-            align-items: center;
         }
 
-        #contato-container a>img {
-            margin-right: 1em;
-            height: 2em;
+        #link-insta:hover {
+            color: #007bff;
         }
     </style>
-
 </head>
 
 <body onload="scrollToContent()">
     <header id="header">
         <div id="header-image-area">
-            <img src="../assets/header-2.jpg" alt=" Tema SECITEC 2023" class="image-fade">
+            <img src="../assets/header-2.jpg" alt="Tema SECITEC 2023" class="image-fade">
         </div>
         <nav id="header-nav">
             <a href="../">Início</a>
             <a href="programacao.html">Programação</a>
-            <a href="noticias.html">Notícias</a>
+            <a href="">Notícias</a>
             <a href="inscricoes.html">Inscrições</a>
             <a href="*">Galeria de fotos</a>
-            <a href="">Contato</a><span>
+            <a href="contatos.html">Contato</a><span>
         </nav>
     </header>
     <div id="navbar-container">
@@ -79,36 +99,23 @@
         <div><a href="semana_da_cultura.html"><span>Semana da Cultura</span></a></div>
         <div><a href="seminario_de_extensao.html"><span>Seminário de Extensão</span></a></div>
         <div><a href="simposio_de_pesquisa.html"><span>Simpósio de Pesquisa Inovação e Pós-graduação</span></a></div>
-        <div><a href="roda_de_conversa.html"><span>Roda de Conversa Treinamento Profissional</span></a>
-        </div>
+        <div><a href="roda_de_conversa.html"><span>Roda de Conversa Treinamento Profissional</span></a></div>
     </div>
     <div id="content">
         <div id="text-area">
-            <h1>IFSUDESTEMG - campus Juiz de Fora</h1>
-        </div>
-        <div id="image-container-local">
-            <img src="../assets/campus-contatos.png" />
-            <span>INSTITUTO FEDERAL DO SUDESTE DE MINAS GERAIS - CAMPUS JUIZ DE FORA
-                Rua Bernardo Mascarenhas, 1283 - Bairro Fábrica - 36080-001 - JUIZ DE FORA - MG
-            </span>
-        </div>
-        <div id="contato-container">
-            <a href="mailto:secitec.jf@ifsudestemg.edu.br"><img
-                    src="../assets/email.png" /><span>secitec.jf@ifsudestemg.edu.br</span></a>
-            <a href="https://www.instagram.com/secitecifjf/"><img src="../assets/instagram.png" /><span>
-                    @secitecifjf</span></a>
-        </div>
-
-        <div id="week-detail">
-            <div id="comissao-container">
-                <hr>
-                <h4>Comissão Organizadora da SECITEC 2023</h4>
-                <p>Denise Barros de Almeida</p>
-                <p>Edjane Maria de Oliveira Pinheiro</p>
-                <p>Gheysa Lemes Gonçalves Gama</p>
-                <p>Helen de Barra Moura</p>
-                <p>Jacqueline Rodrigues Gonçalves da Costa</p>
+            <h1>Noticias</h1>
+            <h2>QUER SER VOLUNTÁRIO NA SECITEC 2023???</h2>
+            <div id="form-area">
+                <h4>Preencha o formulario clicando no botão a baixo:</h4>
+                <a href="https://forms.gle/p2Y6A6g3oheNDQNi7">
+                    <span>Cadastro de voluntários</span>
+                    <img src="../assets/contact-form.png" alt="Formulario-img">
+                </a>
             </div>
+            <hr>
+            <p>FIQUEM ATENTOS AS NOVIDADES DIRETAMENTE NO INSTAGRAM <a id="link-insta"
+                    href="https://www.instagram.com/secitecifjf/"><span>
+                        @secitecifjf</span></a></p>
         </div>
     </div>
     <footer id="footer-container">
