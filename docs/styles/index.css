@@ -49,12 +49,35 @@ body {
   margin-bottom: 2em;
 }
 
+#text-area h3 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
 #text-area p {
   text-align: justify;
 }
 
 #text-area p span.first-letter {
   margin-right: 5em; /* Adicione o valor desejado para o espaçamento antes da primeira letra */
+}
+
+#campus-image {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#campus-image img {
+  max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+  height: auto;
+}
+
+#campus-image span {
+  font-size: smaller;
 }
 
 @media (max-width: 768px) {
